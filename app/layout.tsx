@@ -23,7 +23,8 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${montserrat.variable} antialiased`}
+        className={montserrat.className}
+        style={{ backgroundColor: "#eaf4ef" }}
       >
         <Header/>
 

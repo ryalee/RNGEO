@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
-.demo_button {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+.linearGradient {
+  background: linear-gradient(90deg, #80bc57 43%, #6272b0 100%);
+}
+
+.title {
+  @apply text-4xl text-[#1f2e29] md:text-5xl lg:text-6xl font-semibold text-center;
+}
+
+.subtitle {
+  @apply text-lg text-[#677e77] md:text-xl lg:text-2xl text-center mt-4;
+}
+
+.first_letter::first-letter {
+  color: #80bc57;
+  font-weight: bold;
 }
