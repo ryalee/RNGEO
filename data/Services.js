@@ -1,6 +1,3 @@
-import { number } from "framer-motion";
-import { q } from "framer-motion/client";
-
 export const services = [
   {
     id: 1,

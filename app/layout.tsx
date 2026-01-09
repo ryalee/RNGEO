@@ -26,13 +26,11 @@ export default function RootLayout({
         className={montserrat.className}
         style={{ backgroundColor: "#eaf4ef" }}
       >
-        <Header/>
+        <Header />
 
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
 
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

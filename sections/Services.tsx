@@ -7,7 +7,7 @@ function Services() {
   return (
     <section className='flex flex-col items-center'>
       <div className='flex flex-col items-center'>
-        <span style={{color: COLORS.primary}} className='text-xl'>Inovação, Tecnologia, Sustentabilidade e inteligência Aplicada</span>
+        <span style={{color: COLORS.primary}} className='text-xl text-center mb-5'>Inovação, Tecnologia, Sustentabilidade e inteligência Aplicada</span>
         <h1 className='title'>RNGEO Soluções</h1>
         <p className='subtitle'>A RNGEO Soluções amplia sua atuação para além das soluções ambientais tradicionais, posicionando-se como uma empresa de inovação ambiental e tecnológica, com foco em capacitação prática, transformação digital sustentável e desenvolvimento de negócios alinhados aos desafios climáticos e às novas economias verdes.</p>
       </div>

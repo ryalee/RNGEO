@@ -12,7 +12,7 @@ function About() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-6 items-center mt-15 md:flex-row">
+      <div className="flex flex-col gap-6 items-center mt-15 md:flex-row md:justify-evenly">
         {AboutESG.map((item) => (
           <div 
             key={item.id}
@@ -42,7 +42,7 @@ function About() {
         style={{backgroundColor: COLORS.primary, color: COLORS.white}}
         className="font-bold shadow-[0px_0px_5px_0px_rgba(61,81,159,1)] rounded-xl px-5 py-7 mt-10"
       >
-        <p className="text-center">ESG não é moda. É estratégia, reputação, competitividade e sobrevivência.</p>
+        <p className="text-center text-xl">ESG não é moda. É estratégia, reputação, competitividade e sobrevivência.</p>
       </div>
     </section>
   );

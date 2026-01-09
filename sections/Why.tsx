@@ -34,7 +34,7 @@ function Why() {
         ))}
 
         <div className="w-100 px-5 py-7 flex items-center justify-center">
-          <Image src="/icons/why/world_image.png" width={200} height={200} />
+          <Image src="/icons/why/world_image.png" width={200} height={200} alt=""/>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ function Why() {
         style={{ color: COLORS.textPrimary }}
         className="font-bold shadow-[0px_0px_5px_0px_rgba(128,188,87,1)] rounded-xl px-5 py-7 w-[90%] self-center mt-15"
       >
-        <p className="text-center text-lg md:text-xl">
+        <p className="text-center text-xl">
           Empresas com ESG vivem mais, crescem melhor e{" "}
           <span style={{ color: COLORS.primary, fontWeight: "bold" }}>
             impactam positivamente

@@ -65,6 +65,7 @@ function ThreePaths() {
                       width={50}
                       height={50}
                       src="/icons/what/environmental.png"
+                      alt=""
                     />
                     <div>
                       <h3 className="text-[#677e77] text-2xl font-bold">

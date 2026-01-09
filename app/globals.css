@@ -16,3 +16,7 @@
   color: #80bc57;
   font-weight: bold;
 }
+
+button:hover {
+  cursor: pointer;
+}

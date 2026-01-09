@@ -36,7 +36,7 @@ function Solutions() {
             >
               <div className="bg-[#f5f5f5] rounded-3xl hover:shadow-sm transition-all duration-300 shadow-md h-full flex flex-col">
                 <div className="p-8 flex-1">
-                  <Image src={solution.image} width={64} height={64} />
+                  <Image src={solution.image} width={64} height={64} alt=""/>
                   <h3 className=" text-2xl font-bold mb-2" style={{color: COLORS.textPrimary}}>
                     {solution.title}
                   </h3>
@@ -52,6 +52,7 @@ function Solutions() {
                           src='/icons/solutions/checked.png'
                           width={30}
                           height={30}
+                          alt=""
                         />
                         <span>{feature}</span>
                       </li>
@@ -59,14 +60,14 @@ function Solutions() {
                   </ul>
                 </div>
 
-                <div className="px-8 pb-8">
+                <div className="px-8 pb-8 flex flex-col">
                   <div style={{ backgroundColor: COLORS.primary }} className="rounded-xl p-4 mb-6">
                     <p className="text-[#f5f5f5] font-semibold">
                       {solution.highlight}
                     </p>
                   </div>
 
-                  <button>
+                  <button className="bg-[#7fbc57c0] w-[80%] self-center py-3 rounded-xl font-semibold text-[#f5f5f5]">
                     Saiba mais
                   </button>
                 </div>

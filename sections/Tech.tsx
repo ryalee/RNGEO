@@ -27,7 +27,7 @@ function Techs() {
         ))}
       </div>
 
-      <div style={{backgroundColor: COLORS.primary}} className='rounded-xl shadow-[0px_0px_10px_0px_#00000021]'>
+      <div style={{backgroundColor: COLORS.primary}} className='rounded-xl shadow-[0px_0px_10px_0px_#00000021] mt-15'>
         <p className='text-[#f5f5f5] px-5 py-7 text-xl font-semibold'>Inovação é o motor que transforma ESG em resultado</p>
       </div>
     </section>

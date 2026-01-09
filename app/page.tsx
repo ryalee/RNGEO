@@ -10,20 +10,25 @@ import Contact from "@/sections/Contact";
 import Services from "@/sections/Services";
 import Diferencial from "@/sections/Diferencial";
 import Techs from "@/sections/Tech";
+import CallToAction from "@/sections/CallToAction";
+import Future from "@/sections/Future";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="h-screen px-4 md:px-8 flex flex-col gap-50">
+    <main className="h-full px-4 md:px-8 flex flex-col gap-50">
       <Hero />
       <About />
       <Why />
       <ThreePaths />
       <Steps />
-      <Solutions/>
-      <Services/>
-      <Diferencial/>
-      <Techs/>
-      <Contact/>
+      <Solutions />
+      <Services />
+      <Diferencial />
+      <Techs />
+      <CallToAction />
+      <Future />
+      <Contact />
     </main>
   );
 }
