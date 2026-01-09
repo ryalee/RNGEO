@@ -69,7 +69,7 @@ function ThreePaths() {
                     />
                     <div>
                       <h3 className="text-[#677e77] text-2xl font-bold">
-                        {activePathData.subtitle}
+                        {activePathData?.subtitle}
                       </h3>
                     </div>
                   </div>
