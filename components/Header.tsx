@@ -65,7 +65,7 @@ function Header() {
               </button>
             </Link>
 
-            <a href="#contato">
+            <a href="https://wa.me/5574999944759?text=Quero+saber+mais+sobre+ESG" target='_blank'>
               <button
                 style={{ backgroundColor: COLORS.primary, color: COLORS.white }}
                 className="py-2 px-4 font-bold rounded-xl cursor-pointer"
